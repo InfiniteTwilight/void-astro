@@ -4,6 +4,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import RecentPublications from "../components/RecentPublications.astro";
+import 3dmodel from "../components/3dmodel.astro";
 ---
 
 <!doctype html>
@@ -23,6 +24,7 @@ import RecentPublications from "../components/RecentPublications.astro";
         </p>
       </div>
 
+<3dmodel />
 
 <script type="module" src="https://unpkg.com/@splinetool/viewer/build/spline-viewer.js"></script>
 <spline-viewer url="https://prod.spline.design/UWoeqiir20o49Dah/scene.splinecode"></spline-viewer>
